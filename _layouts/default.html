@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Your Page Title</title>
+  <title>The documentation of GHCloud!</title>
   <link rel="stylesheet" type="text/css" href="../_assets/main.css">
 </head>
 <body>
@@ -10,13 +10,19 @@
     <!-- Your header content goes here -->
   </header>
 
-  <nav>
-    <!-- Your navigation content goes here -->
-  </nav>
+  <div class="container">
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+      </ul>
+    </nav>
 
-  <main>
-    {{ content }}
-  </main>
+    <main>
+      {{ content }}
+    </main>
+  </div>
 
   <footer>
     <!-- Your footer content goes here -->
