@@ -1,2 +1,4 @@
 <!-- index.md -->
-# Your Page Content
+---
+layout: default
+---
