@@ -1,4 +1,4 @@
 <!-- index.md -->
 ---
-layout: default
+layout: default  
 ---
