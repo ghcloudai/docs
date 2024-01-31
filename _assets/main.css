@@ -1,2 +1,16 @@
 /* _assets/main.css */
 /* Your styles go here */
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
